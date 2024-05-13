@@ -1,0 +1,23 @@
+===========REQUIEREMENTS============
+                                 PIACS
+import argparse
+import nmap
+import os
+import time
+import socket
+import requests
+import logging
+import webbrowser
+from PIL.ExifTags import TAGS
+from PIL import Image
+from virus_total_apis import PublicApi
+from key.key_api import api_key
+from lxml import html
+from bs4 import BeautifulSoup
+from modulos.escanerp import *
+from modulos.analizarv import *
+from modulos.metadatos import print_meta
+from modulos.cifrado import cifrar_archivos
+from modulos.webscr import scraping_web
+from modulos.api import analizar_urls
+from modulos.gmps import googlemaps
