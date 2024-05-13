@@ -26,4 +26,4 @@ def analizar_vulnerabilidades(ip, puertos):
     except nmap.nmap.PortScannerError:
         return ["Error al escanear vulnerabilidades."]
     except Exception as e:
-        return [f"Ocurrió un error: {str(e)}"
+        return [f"Ocurrió un error: {str(e)}"]
