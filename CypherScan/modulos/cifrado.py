@@ -41,6 +41,6 @@ def encrypt_files_in_folder(folder_path, shift):
                 save_encrypted_text(encrypted_text, file_path.replace('.txt', '_cifrado.txt'))
 
 def cifrar_archivos():
-    carpeta_metadatos = r"C:\Users\karla\OneDrive\Documentos\GitHub\PROGCIB\modulos\metadatos"
+    carpeta_metadatos = r"C:\Users\karla\OneDrive\Documentos\GitHub\CypherScan\modulos\metadatos"
     shift = 3
     encrypt_files_in_folder(carpeta_metadatos, shift)
