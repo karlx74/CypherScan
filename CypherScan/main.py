@@ -15,7 +15,7 @@ def main(url):
     analizar_urls(archivo_urls)
 
     rutas_imagenes = [
-        r"C:\Users\karla\OneDrive\Documentos\GitHub\PROGCIB\modulos\IMGS",
+        r"C:\Users\karla\OneDrive\Documentos\GitHub\CypherScan\modulos\IMGS",
     ]
     print_meta(rutas_imagenes)
     googlemaps()
@@ -27,7 +27,7 @@ def main(url):
         print(f"\nLa dirección IP de {url2} es: {ip}")
         print("\nIniciando escaneo de puertos...")
         resultados_puertos = escanear_puertos(ip)
-        archivo_resultados_puertos = r'C:\Users\karla\OneDrive\Documentos\GitHub\PROGCIB\resultados_puertos.txt'
+        archivo_resultados_puertos = r'C:\Users\karla\OneDrive\Documentos\GitHub\CypherScan\resultados_puertos.txt'
         guardar_resultados(resultados_puertos, archivo_resultados_puertos)
         print(f"\nResultados de escaneo de puertos guardados en {archivo_resultados_puertos}")
 
